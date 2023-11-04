@@ -2,12 +2,13 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url('../Banco_Imagens/Fachada-UNIFG-2000x1283-alt-sem-laureate.jpeg');
+    background-image: url('/images/bg-game.jpg');
     background-size: cover;
     min-height: 100vh;
     align-items: center;
     padding: 20px 20px 50px;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 header{
@@ -59,7 +60,7 @@ header{
 
 .back{
     background-color: white;
-    background-image: url(../Banco_Imagens/Simbolo_Redondo_Unifg.png);
+    background-image: url(/images/jake-finn.png);
     backface-visibility: hidden;
 }
 
